@@ -158,6 +158,7 @@
 				{
 					id: "54B5DC1982F4D816"
 					item: "greate:large_andesite_alloy_cogwheel"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -165,6 +166,10 @@
 					item: "greate:andesite_alloy_shaft"
 					optional_task: true
 					type: "item"
+				}
+				{
+					id: "7FE4134D75075EC4"
+					type: "checkmark"
 				}
 			]
 			title: "{quests.steam_age.basic_greate.title}"

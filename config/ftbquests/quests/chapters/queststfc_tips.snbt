@@ -878,6 +878,7 @@
 							"ftbfiltersystem:filter": "only_one(nbt(fuzzy:{fluid:{Amount:1000,FluidName:\"tfc:brine\"}})item(tfc:bucket/brine))"
 						}
 					}
+					optional_task: true
 					title: "{quests.tfg_tips.brine_something.task.2}"
 					type: "item"
 				}
@@ -908,6 +909,7 @@
 							"ftbfiltersystem:filter": "only_one(nbt(fuzzy:{fluid:{Amount:1000,FluidName:\"tfc:vinegar\"}})item(tfc:bucket/vinegar))"
 						}
 					}
+					optional_task: true
 					title: "{quests.tfg_tips.pickle_something.task.1}"
 					type: "item"
 				}

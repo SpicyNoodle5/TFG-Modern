@@ -38,11 +38,18 @@
 			icon: "tfg:semiheavy_ammoniacal_water_bucket"
 			id: "4259CD4F819806AB"
 			subtitle: "{quests.space_survival.semiheavy_ammoniacal_water.subtitle}"
-			tasks: [{
-				id: "1221D18D1C6690BD"
-				item: "tfg:semiheavy_ammoniacal_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1221D18D1C6690BD"
+					item: "tfg:semiheavy_ammoniacal_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0065C1AFD4330F8D"
+					type: "checkmark"
+				}
+			]
 			title: "{quests.space_survival.semiheavy_ammoniacal_water.title}"
 			x: 15.0d
 			y: -6.5d
@@ -147,11 +154,18 @@
 			icon: "tfg:heavy_ammoniacal_water_bucket"
 			id: "204DDAFEA40C0146"
 			subtitle: "{quests.space_survival.heavy_ammoniacal_water.subtitle}"
-			tasks: [{
-				id: "33C86463603C272D"
-				item: "tfg:heavy_ammoniacal_water_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33C86463603C272D"
+					item: "tfg:heavy_ammoniacal_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0EF7EFC2E3F151E7"
+					type: "checkmark"
+				}
+			]
 			title: "{quests.space_survival.heavy_ammoniacal_water.title}"
 			x: 15.5d
 			y: -4.0d
